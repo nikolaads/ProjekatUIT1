@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>rezervacija</title>
+</head>
+<body>
+    <img src="../slike/logo1.png"alt= "logo" width="300" height="140">
+    <table>
+        <tr>
+            <td><a href="../index.html">Pocetna</a></td>
+            <td><a href="onama.html">O nama</a></td>
+            <td><a href="rezervacija.html">Rezervacija</a></td>
+            <td><a href="galerija.html">Galerija</a></td>
+            <td><a href="kontakt.html">Kontakt</a></td>
+        </tr>
+    </table>
+    <h2>Kako rezervisati?</h2>
+    <p>Molimo popunite dole navedene informacije sa željenim datumom i vremenom za vašu posetu. Naš tim će vas kontaktirati da potvrdi vaš termin.</p>
+    <form>
+        Ime i Prezime:<br>
+        <input type="text" name="ImePrezime" required><br>
+        Email:<br>
+        <input type="email" name="Email" required><br>
+        Telefon:<br>
+        <input type="tel" name="Telefon" required><br>
+        Datum:<br>
+        <input type="date" name="Datum" required><br>
+        Vreme:<br>
+        <input type="time" name="Vreme" required><br><br>
+    
+        <label for="tipAuta">Tip auta:</label><br>
+        <select required>
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="limuzina">Limuzina</option>
+            <option value="Karavan">Karavan</option>
+            <option value="kupe">Kupe</option>
+        </select><br>
+    
+        <input type="submit" value="Rezervisi">
+    </form>
+    
+    
+</body>
+</html>
